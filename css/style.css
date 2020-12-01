@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+/*-----------------------------ESTILOS BASE--------------------------------*/
+
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container--flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+
+/*----------------ESTILOS HEADER-------------------------------------------*/
+
+
+.main-header{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #DE423A;
+    padding: 10px;
+}
+
+.main-header__contactInfo__phone{
+    background: #DE423A;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main-header__contactInfo__address{
+    padding: 10px;
+    margin: 0;
+}
+.main-header[class*="icon-"]{
+    position: relative;
+}
